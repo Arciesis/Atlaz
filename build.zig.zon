@@ -1,0 +1,19 @@
+.{
+    .name = .atlas,
+
+    .version = "0.0.1",
+
+    .fingerprint = 0x720ad60f430ef1c1, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .zigimg = .{
+            .url = "https://github.com/zigimg/zigimg/archive/b7f58e311b33516c770638c036a5e69b725d2f7e.tar.gz",
+            .hash = "zigimg-0.1.0-8_eo2lnXEgDBn61su0xmU3aJUZbaszETwrOdrQgKofO8",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
